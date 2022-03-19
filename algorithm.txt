@@ -1,0 +1,21 @@
+1.get all logs value
+    1.1 get all logs ID
+    1.2 get all log value and timestamp to csv by KPIdraw
+        1.2.1 diff format in same log: ->1. OTA: ??
+
+2.set variable length slide windows
+    2.1 set min & max length
+        min: 3, max:29  range:3,5,7,11,13,17,19,29
+    2.2 step: x//3
+
+3.move rule
+    3.1 get all time index
+    3.2 get init window 
+    3.3 move and static all the windows shape and its transfer probability  (Regularization or normalization)
+
+4.combine data
+    4.1 combine dic
+    4.2 softmax new dic
+    4.3 softamanx combined dic
+   
+5.analysis test
